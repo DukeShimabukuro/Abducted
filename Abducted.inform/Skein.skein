@@ -1,17 +1,38 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1010">
+<Skein rootNode="node-1015">
     <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
-    <item nodeId="node-1010">
+    <item nodeId="node-1015">
         <command xml:space="preserve">Abducted</command>
         <result xml:space="preserve">
 
 
+It has been a week since you have seen the outside world. He occasionally comes by to drop of water and a small parcel of food. If I am lucky that is the only thing he does when he comes downstairs. Sometimes he touches me, other times when he is angry, he will beat me. I can't take this much longer. I must find a way out.
+
 Abducted
 An Interactive Fiction by Duke Shimabukuro
-Release 1 / Serial number 170210 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170214 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
-Living room
+Basement
+Its dark all around you. There is a small sliver of light coming from under the door at the top of the stairs.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1019"></child>
+            <child nodeId="node-1018"></child>
+        </children>
+    </item>
+    <item nodeId="node-1018">
+        <command xml:space="preserve">x room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1019">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Basement
+Its dark all around you. There is a small sliver of light coming from under the door at the top of the stairs.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
