@@ -6,12 +6,12 @@ When play begins:
 Basement is north of staircase.  "Its dark all around you. There is a small sliver of light coming from under the door at the top of the stairs."
  
 Living room is a room. The description of the living room is "There is an LG flatscreen TV on the pale wall. Under the TV is a cable box that sits on a wooden shelf. The windows on either sides of the TV are covered with heavy black drapes. A pretty large brown sofa about seven feet long is facing the TV. There is a glass coffee table on infront of the sofa."
-If player 
-Stairs is south of livingroom.
 
-Hallway is south of stairs.
+Stairs is south of livingroom. "Stairs that lead to the second level.".
 
-Bedroom is west of hallway.
+Hallway is south of stairs. 
+
+Bedroom is west of hallway. "There is a desk in the corner of the room under a window that has a black curtain covering it. Papers are stacked high all over the desk. There is a bed adjacent to the desk 
 
 Utility closet is east of hallway. 
 
