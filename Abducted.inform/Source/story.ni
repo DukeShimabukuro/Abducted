@@ -5,16 +5,21 @@ When play begins:
 	
 Basement is a room.  "Its dark all around you. There is a small sliver of light coming from under the door at the top of the stairs. There are a bunch of moving boxes scattered all around the basement. In the far right corner of the basement there is a washing machine, dryer and a sink. Next to the sink is a shelf of tools."
 
-Flashlight is a thing. 
+Flashlight is a thing. The flashlight is on the washing machine. 
+
+A rusty key is a thing. The rusty key is in the basement. The rusty key unlocks the basement door.
+
+
+The washing machine is a thing. The washing machine is in the basement. 
+
 
 Staircase is a room. 
 
-The wood door is a door. The wood door is south of basement and north of saircase. The rusty key unlocks the wood door. 
+The basement door is a door. The basement door is south of basement and north of saircase. The rusty key unlocks the basement door. 
 
+Staircase is north of living room. 
 
-
-
-The wood door is closed and openable. The wood door is locked and lockable. 
+The basement door is closed and openable. The basement door is locked and lockable. 
 
  
 Living room is a room. The description of the living room is "There is an LG flatscreen TV on the pale wall. Under the TV is a cable box that sits on a wooden shelf. The windows on either sides of the TV are covered with heavy black drapes. A pretty large brown sofa about seven feet long is facing the TV. There is a glass coffee table on infront of the sofa."
