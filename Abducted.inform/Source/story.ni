@@ -45,6 +45,8 @@ Before drinking bleach:
 say "You fool. I told you not to drink the bleach. Now look at you, all dead and now you have to restart.";
 end the story saying "You died from drinking bleach. You lose.".
 
+Use UNDO prevention. 
+
 Laundry detergent is a thing. Laundry detergent is in the utility closet. The Laundry detergent is undescribed. 
 
 Box of dryer sheets is a thing. Box of dryer sheets is in the utility closet. The  Box of dryer sheets is undescribed.

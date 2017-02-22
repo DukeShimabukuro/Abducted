@@ -76,6 +76,8 @@ Default Headline 0;
  Constant MAX_FIGURE_THUMBNAILS_IN_INDEX = 50; 
 ! Use option:
  Constant MATCH_LIST_WORDS = 100; 
+! Use option:
+ Constant PREVENT_UNDO; 
 
 
 #Ifndef USE_SCORING;
@@ -5319,6 +5321,7 @@ Constant NO_USE_OPTIONS = 28;
     if (UO == 2) rtrue;
     if (UO == 3) rtrue;
     if (UO == 4) rtrue;
+    if (UO == 17) rtrue;
     rfalse;
 ];
 [ PrintUseOption 
