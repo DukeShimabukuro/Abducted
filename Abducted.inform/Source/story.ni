@@ -35,37 +35,51 @@ Stairs is south of living room. "Stairs that lead to the second level.".
 
 Hallway is south of stairs. "There are pictures of him and the animals he killed are across the wall, like some trophy hall."
 
-Bedroom is west of hallway. "There is a desk in the corner of the room under a window that has a black curtain covering it. Papers are stacked high all over the desk. There is a bed adjacent to the desk. Blanket and sheets are unmade and scatter from the bed to the ground. There is something shining that you see under the desk.".
+Bedroom is a room. "There is a desk in the corner of the room under a window that has a black curtain covering it. Papers are stacked high all over the desk. There is a bed adjacent to the desk. Blanket and sheets are unmade and scatter from the bed to the ground. There is something shining that you see under the desk.".
+
+Bedroom door is a door. Bedroom door is east of bedroom and west of hallway.
+
+Safe is a thing. Safe is a container. Safe is locked and lockable. Safe is in bedroom. 
+
+Red key is a thing. Red key unlocks the backdoor. Red key is in safe. 
+
+
 
 Utility closet is east of hallway. "Inside the closet there are shelves in every direction. On the shelves to your left there are bottles of bleach, laundry detergents, and a box of dryer sheets. On the shelves straight in front of you there are spare light bulbs, and batteries. Under the shelf in front of you there is a large Matco toolbox. On the shelf to your right there are rolls of toilet paper, paper towels, and boxes of tissues.".
 
 Bleach is a thing. Bleach is in the utility closet. Bleach is undescribed. The description of bleach is "Just a regular bottle of bleach used for towels. Got to find something to open up the bedroom door! Don't try and drink it."
 Bleach can be consumed by drinking.
 Before drinking bleach:
-say "You fool. I told you not to drink the bleach. Now look at you, all dead and now you have to restart.";
+say "You fool! I told you not to drink the bleach. Now look at you, all dead and now you have to restart.";
 end the story saying "You died from drinking bleach. You lose.".
 
 Use UNDO prevention. 
 
-Laundry detergent is a thing. Laundry detergent is in the utility closet. The Laundry detergent is undescribed. 
+Laundry detergent is a thing. Laundry detergent is in the utility closet. The Laundry detergent is undescribed. The description of laundry detergent is "A bottle of Tide, nothing special here. Got to find something that will unlock the bedroom door.".
 
-Box of dryer sheets is a thing. Box of dryer sheets is in the utility closet. The  Box of dryer sheets is undescribed.
+Box of dryer sheets is a thing. Box of dryer sheets is in the utility closet. The  Box of dryer sheets is undescribed. The description of box of dryer sheets is "Just an ordinary box of dryer sheets. Need to find something that will open the door to the bedroom.".
 
-Light bulbs is a thing. Light bulbs is in the utility closet. The  Light bulbs is undescribed.
+Light bulbs is a thing. Light bulbs is in the utility closet. The Light bulbs is undescribed. The description of light bulbs is "Nothing special here, just some spare lightbulbs. There has to be something to open up the bedroom door.".
 
-Batteries is a thing. Batteries is in the utility closet. The Batteries is undescribed.
+Batteries is a thing. Batteries is in the utility closet. The Batteries is undescribed. The description of batteries is "Just a pack of duracell batteries. Got to find something that will open the bedroom door.".
 
-Toilet paper is a thing. Toilet paper is in the utility closet. The Toilet paper is undescribed.
+Toilet paper is a thing. Toilet paper is in the utility closet. The Toilet paper is undescribed. The description of toilet paper is "Wow Charmine Ultra Strong, fancy. Got to find something to get into the bedroom.".
 
-Paper towels is a thing. Paper towels is in the utility closet. The Paper towels is undescribed.
+Paper towels is a thing. Paper towels is in the utility closet. The Paper towels is undescribed. The description of paper towels is "Just some rolls of Bounty, nothing too special. Better look for something to open the bedroom door."
 
-Boxes of tissues is a thing. Boxes of tissues is in the utility closet. The Boxes of tissues is undescribed.
+Boxes of tissues is a thing. Boxes of tissues is in the utility closet. The Boxes of tissues is undescribed. The description of the boxes of tissues is "Just some boxes of Kleenex. Nothing to unlock the bedroom door here.".
 
 
 
-Kitchen is east of Living room.
+Kitchen is east of Living room. The description of the kitchen is "A typical kitchen. A generic refrigerator with a sink to the left of it. A counter to the left of the sink and to the right of the refrigerator. Notes stuck to the refrigerator by magnets. Wood cabinets surround the kitchen. In the back right corner of the kitchen is a door. That leads to outside."
 
-Backdoor is a door. Backdoor is east of kitchen. Backdoor is locked and lockable. 
+Yard is a room. The description of the yard is "Oh the smell of fresh air, the cool breeze rushing passed you, the trees swaying in the wind. The feelings overwhelm you. You start to break down, but it is not over yet so you gather yourself together and climb over the fence. As you stumble into the street, some strangers notice you and come to help you and they began to call the cops. It is over, the fight is over, you are in safety now.".
+
+After going to the yard with red key:
+	end the story saying "You win!".
+
+
+Backdoor is a door. Backdoor is east of kitchen and west of yard. Backdoor is locked and lockable.
 
 Backdoor is east of kitchen. "Leads to the backyard. I could probably hop the fence and escape from here."
 

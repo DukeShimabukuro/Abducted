@@ -11,7 +11,7 @@ It has been weeks since you have seen the outside world. He occasionally comes b
 
 Abducted
 An Interactive Fiction by Duke Shimabukuro
-Release 1 / Serial number 170221 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170222 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Basement
 Its dark all around you. There is a small sliver of light coming from under the door at the top of the stairs. There are a bunch of moving boxes scattered all around the basement. In the far right corner of the basement there is a washing machine, dryer and a sink. Next to the sink is a shelf of tools.
@@ -1429,12 +1429,13 @@ You can see a basement door here.
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">(first opening the basement door)
 
-saircase
+Staircase
 You can see a basement door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1154"></child>
+        <children><child nodeId="node-1450"></child>
+            <child nodeId="node-1154"></child>
             <child nodeId="node-1146"></child>
         </children>
     </item>
@@ -1474,7 +1475,9 @@ You can see a basement door here.
     </item>
     <item nodeId="node-1154">
         <command xml:space="preserve">s</command>
-        <result xml:space="preserve">You can't go that way.
+        <result xml:space="preserve">
+living room
+There is an LG flatscreen TV on the pale wall. Under the TV is a cable box that sits on a wooden shelf. The windows on either sides of the TV are covered with heavy black drapes. A pretty large brown sofa about seven feet long is facing the TV. There is a glass coffee table on infront of the sofa.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1483,7 +1486,74 @@ You can see a basement door here.
     </item>
     <item nodeId="node-1160">
         <command xml:space="preserve">s</command>
-        <result xml:space="preserve">You can't go that way.
+        <result xml:space="preserve">
+Stairs
+Stairs that lead to the second level.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1430"></child>
+        </children>
+    </item>
+    <item nodeId="node-1430">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway
+There are pictures of him and the animals he killed are across the wall, like some trophy hall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1431"></child>
+        </children>
+    </item>
+    <item nodeId="node-1431">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Utility closet
+Inside the closet there are shelves in every direction. On the shelves to your left there are bottles of bleach, laundry detergents, and a box of dryer sheets. On the shelves straight in front of you there are spare light bulbs, and batteries. Under the shelf in front of you there is a large Matco toolbox. On the shelf to your right there are rolls of toilet paper, paper towels, and boxes of tissues.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1432"></child>
+        </children>
+    </item>
+    <item nodeId="node-1432">
+        <command xml:space="preserve">x bleach</command>
+        <result xml:space="preserve">Just a regular bottle of bleach used for towels. Got to find something to open up the bedroom door! Don't try and drink it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1433"></child>
+        </children>
+    </item>
+    <item nodeId="node-1433">
+        <command xml:space="preserve">drink bleach</command>
+        <result xml:space="preserve">You fool! I told you not to drink the bleach. Now look at you, all dead and now you have to restart.
+
+
+
+    *** You died from drinking bleach. You lose. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1434"></child>
+        </children>
+    </item>
+    <item nodeId="node-1434">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">The use of "undo" is forbidden in this story.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1450">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a rusty key
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1645,60 +1715,70 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     </item>
     <item nodeId="node-1398">
         <command xml:space="preserve">undo</command>
-        <result xml:space="preserve">Utility closet
-[Previous turn undone.]
+        <result xml:space="preserve">The use of "undo" is forbidden in this story.
 
-&gt;</result>
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1399"></child>
         </children>
     </item>
     <item nodeId="node-1399">
         <command xml:space="preserve">undo</command>
-        <result xml:space="preserve">Utility closet
-[Previous turn undone.]
+        <result xml:space="preserve">The use of "undo" is forbidden in this story.
 
-&gt;</result>
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1400"></child>
         </children>
     </item>
     <item nodeId="node-1400">
         <command xml:space="preserve">s</command>
-        <result xml:space="preserve">You can't go that way.
+        <result xml:space="preserve">Please give one of the answers above.
 
-&gt;</result>
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1401"></child>
         </children>
     </item>
     <item nodeId="node-1401">
         <command xml:space="preserve">e</command>
-        <result xml:space="preserve">You can't go that way.
+        <result xml:space="preserve">Please give one of the answers above.
 
-&gt;</result>
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1402"></child>
         </children>
     </item>
     <item nodeId="node-1402">
         <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-Hallway
-There are pictures of him and the animals he killed are across the wall, like some trophy hall.
+        <result xml:space="preserve">Please give one of the answers above.
 
-&gt;</result>
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1403"></child>
         </children>
     </item>
     <item nodeId="node-1403">
         <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-Utility closet
-Inside the closet there are shelves in every direction. On the shelves to your left there are bottles of bleach, laundry detergents, and a box of dryer sheets. On the shelves straight in front of you there are spare light bulbs, and batteries. Under the shelf in front of you there is a large Matco toolbox. On the shelf to your right there are rolls of toilet paper, paper towels, and boxes of tissues.
+        <result xml:space="preserve">Please give one of the answers above.
 
-&gt;</result>
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1423"></child>
+        </children>
+    </item>
+    <item nodeId="node-1423">
+        <command xml:space="preserve">restore</command>
+        <result xml:space="preserve">Restore failed.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1288">
