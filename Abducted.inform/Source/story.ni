@@ -30,6 +30,7 @@ The basement door is closed and openable. The basement door is locked and lockab
 
  
 Living room is a room. The description of the living room is "There is an LG flatscreen TV on the pale wall. Under the TV is a cable box that sits on a wooden shelf. The windows on either sides of the TV are covered with heavy black drapes. A pretty large brown sofa about seven feet long is facing the TV. There is a glass coffee table on infront of the sofa."
+Living room is west of kitchen. 
 
 Stairs is south of living room. "Stairs that lead to the second level.".
 
@@ -37,9 +38,14 @@ Hallway is south of stairs. "There are pictures of him and the animals he killed
 
 Bedroom is a room. "There is a desk in the corner of the room under a window that has a black curtain covering it. Papers are stacked high all over the desk. There is a bed adjacent to the desk. Blanket and sheets are unmade and scatter from the bed to the ground. There is something shining that you see under the desk.".
 
-Bedroom door is a door. Bedroom door is east of bedroom and west of hallway.
+Bedroom door is a door. Bedroom door is east of bedroom and west of hallway. Bedroom door is locked and lockable.
 
-Safe is a thing. Safe is a container. Safe is locked and lockable. Safe is in bedroom. 
+Safe is a thing. Safe is a container. Safe is locked and lockable. Safe is in bedroom. The description of safe is "A heavy looking steel safe. There seems to be a dial on the front. There are instructions still on the safe. It reads 'To unlock safe say spin dial to whatever your four digit password is.' For example say 'spin dial to 1122'". The safe is undescribed. 
+
+[Thanks to http://dhayton.haverford.edu/wp-content/uploads/Inform-manuals/Rex334.html#e334 for this code]
+Understand "dial" as the safe. Spinning it to is an action applying to one thing and one number. Check spinning it to: if the noun is not the Safe, say "[The noun] does not spin." instead. Report spinning it to: say "Click! and nothing else happens."
+Understand "spin [something] to [a number]" as spinning it to.
+After spinning the closed Safe to 0222: now the Safe is open; say "Clonk! and the safe door swings slowly open, revealing [a list of things in the Safe]."
 
 Red key is a thing. Red key unlocks the backdoor. Red key is in safe. 
 
@@ -69,9 +75,14 @@ Paper towels is a thing. Paper towels is in the utility closet. The Paper towels
 
 Boxes of tissues is a thing. Boxes of tissues is in the utility closet. The Boxes of tissues is undescribed. The description of the boxes of tissues is "Just some boxes of Kleenex. Nothing to unlock the bedroom door here.".
 
+Matco toolbox is a thing. Matco toolbox is a container. Matco toolbox is closed and openable. The description of matco toolbox is "A large, chest high red toolbox made of military grade steel. There seems to be something inside the toolbox." The matco toolbox is in utility closet.
+Understand "toolbox" as Matco toolbox.
+
+Yellow key is a thing. Yellow key unlocks bedroom door. Yellow key is in matco toolbox. 
 
 
-Kitchen is east of Living room. The description of the kitchen is "A typical kitchen. A generic refrigerator with a sink to the left of it. A counter to the left of the sink and to the right of the refrigerator. Notes stuck to the refrigerator by magnets. Wood cabinets surround the kitchen. In the back right corner of the kitchen is a door. That leads to outside."
+Kitchen is a room. The description of the kitchen is "A typical kitchen. A generic refrigerator with a sink to the left of it. A counter to the left of the sink and to the right of the refrigerator. Notes stuck to the refrigerator by magnets. Wood cabinets surround the kitchen. In the back right corner of the kitchen is a door that leads to the yard."
+Understand "door" as backdoor. 
 
 Yard is a room. The description of the yard is "Oh the smell of fresh air, the cool breeze rushing passed you, the trees swaying in the wind. The feelings overwhelm you. You start to break down, but it is not over yet so you gather yourself together and climb over the fence. As you stumble into the street, some strangers notice you and come to help you and they began to call the cops. It is over, the fight is over, you are in safety now.".
 
@@ -81,7 +92,7 @@ After going to the yard with red key:
 
 Backdoor is a door. Backdoor is east of kitchen and west of yard. Backdoor is locked and lockable.
 
-Backdoor is east of kitchen. "Leads to the backyard. I could probably hop the fence and escape from here."
+The backdoor is undescribed. The description of backdoor is "This door leads to the yard. I could probably hop the fence and escape from there."
 
 Bathroom is west of living room. "Nothing to special here. Just a typical bathroom. Two towels hanging on the rack, one toothbrush in the toothbrush holder with a tube of toothpaste on the counter."
 
