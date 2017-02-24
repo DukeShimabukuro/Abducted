@@ -1,7 +1,7 @@
 "Abducted" by Duke Shimabukuro
 
 When play begins:
-	say "It has been weeks since I have seen the outside world. He occasionally comes by to drop of water and a small parcel of food. If I am lucky that is the only thing he does when he comes downstairs. I can not take this pain for much longer, I must find a way out."
+	say "It has been weeks since I have seen the outside world. Mike, who had abducted me, occasionally comes by to drop of water and a small parcel of food. If I am lucky that is the only thing he does when he comes downstairs. I can not take this pain for much longer, I must find a way out."
 	
 Basement is a room.  "Its dark all around you. There is a small sliver of light coming from under the door at the top of the stairs. There are a bunch of moving boxes scattered all around the basement. In the far right corner of the basement there is a washing machine, dryer and a sink. Next to the sink is a shelf of tools."
 
@@ -40,7 +40,7 @@ Bedroom door is a door. Bedroom door is east of bedroom and west of hallway. Bed
 
 Safe is a thing. Safe is a container. Safe is locked and lockable. Safe is in bedroom. The description of safe is "A heavy looking steel safe. There seems to be a dial on the front. There are instructions still on the safe. It reads 'To unlock safe say spin dial to whatever your four digit password is.' For example say 'spin dial to 1122'". The safe is undescribed. 
 
-[Thanks to http://dhayton.haverford.edu/wp-content/uploads/Inform-manuals/Rex334.html#e334 for this code]
+[Thanks to http://dhayton.haverford.edu/wp-content/uploads/Inform-manuals/Rex334.html#e334 for the following code]
 Understand "dial" as the safe. Spinning it to is an action applying to one thing and one number. Check spinning it to: if the noun is not the Safe, say "[The noun] does not spin." instead. Report spinning it to: say "Click! and nothing else happens."
 Understand "spin [something] to [a number]" as spinning it to.
 After spinning the closed Safe to 0222: now the Safe is open; say "Clonk! and the safe door swings slowly open, revealing [a list of things in the Safe]."

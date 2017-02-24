@@ -12547,9 +12547,9 @@ Array ActionHappened --> 0 0 0 0 0;
 ! When play begins:
 [ R_799 ;
     if (debug_rules) DB_Rule(R_799, 799);
-    ! [2: say ~It has been weeks since I have seen the outside world. He occasionally comes by to drop of water and a small parcel of food. If I am lucky that is the only thing he does when he comes downstairs. I can not take this pain for much longer, I must find a way out.~]
-    say__p=1;! [3: ~It has been weeks since I have seen the outside world. He occasionally comes by to drop of water and a small parcel of food. If I am lucky that is the only thing he does when he comes downstairs. I can not take this pain for much longer, I must find a way out.~]
-    ParaContent(); print "It has been weeks since I have seen the outside world. He occasionally comes by to drop of water and a small parcel of food. If I am lucky that is the only thing he does when he comes downstairs. I can not take this pain for much longer, I must find a way out."; new_line; .L_Say1; .L_SayX1;rfalse;
+    ! [2: say ~It has been weeks since I have seen the outside world. Mike, who had abducted me, occasionally comes by to drop of water and a small parcel of food. If I am lucky that is the only thing he does when he comes downstairs. I can not take this pain for much longer, I must find a way out.~]
+    say__p=1;! [3: ~It has been weeks since I have seen the outside world. Mike, who had abducted me, occasionally comes by to drop of water and a small parcel of food. If I am lucky that is the only thing he does when he comes downstairs. I can not take this pain for much longer, I must find a way out.~]
+    ParaContent(); print "It has been weeks since I have seen the outside world. Mike, who had abducted me, occasionally comes by to drop of water and a small parcel of food. If I am lucky that is the only thing he does when he comes downstairs. I can not take this pain for much longer, I must find a way out."; new_line; .L_Say1; .L_SayX1;rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
 
