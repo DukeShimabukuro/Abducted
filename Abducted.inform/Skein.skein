@@ -16,17 +16,20 @@ Release 1 / Serial number 170223 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 Basement
 Its dark all around you. There is a small sliver of light coming from under the door at the top of the stairs. There are a bunch of moving boxes scattered all around the basement. In the far right corner of the basement there is a washing machine, dryer and a sink. Next to the sink is a shelf of tools.
 
-You can see a basement door and a washing machine here.
+You can see a basement door, a washing machine and Mike here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1005"></child>
+        <children><child nodeId="node-2304"></child>
+            <child nodeId="node-1005"></child>
             <child nodeId="node-1142"></child>
             <child nodeId="node-1004"></child>
             <child nodeId="node-1076"></child>
             <child nodeId="node-1063"></child>
             <child nodeId="node-1029"></child>
+            <child nodeId="node-2300"></child>
             <child nodeId="node-1026"></child>
+            <child nodeId="node-2345"></child>
             <child nodeId="node-1003"></child>
             <child nodeId="node-1119"></child>
             <child nodeId="node-1120"></child>
@@ -157,6 +160,397 @@ You can see a basement door here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-2345">
+        <command xml:space="preserve">x mike</command>
+        <result xml:space="preserve">He is a tall white man with brown beard and brown hair. He is holding your breakfast, you should ask him about it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2346"></child>
+        </children>
+    </item>
+    <item nodeId="node-2346">
+        <command xml:space="preserve">talk to mike</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2347"></child>
+        </children>
+    </item>
+    <item nodeId="node-2347">
+        <command xml:space="preserve">take breakfast from mike</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2348"></child>
+        </children>
+    </item>
+    <item nodeId="node-2348">
+        <command xml:space="preserve">take breakfast</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2349"></child>
+        </children>
+    </item>
+    <item nodeId="node-2349">
+        <command xml:space="preserve">ask mike about breakfast</command>
+        <result xml:space="preserve">Here I brought you your breakfast. I am going to work now. Behave yourself.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2355"></child>
+        </children>
+    </item>
+    <item nodeId="node-2355">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Breakfast
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2356"></child>
+        </children>
+    </item>
+    <item nodeId="node-2356">
+        <command xml:space="preserve">open dryer</command>
+        <result xml:space="preserve">As you open the dryer, a loud squeek comes from the hinge of the dryer door. You freeze in fear, just in case he heard and comes to check on you. After a couple of minutes has passed, you continue searching the dryer. Using the light from inside the dryer you examine every inch of the inside. Still nothing, but as you look down as you were about to take your head out of the dryer, you see something in the lint trap. As you take out the filter, a rusty key drops to the floor.
+
+You open the dryer, revealing a rusty key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2357"></child>
+        </children>
+    </item>
+    <item nodeId="node-2357">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2358"></child>
+        </children>
+    </item>
+    <item nodeId="node-2358">
+        <command xml:space="preserve">open door with key</command>
+        <result xml:space="preserve">You unlock the basement door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2359"></child>
+        </children>
+    </item>
+    <item nodeId="node-2359">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening the basement door)
+
+Staircase
+You can see a basement door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2360"></child>
+        </children>
+    </item>
+    <item nodeId="node-2360">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+living room
+There is an LG flatscreen TV on the pale wall. Under the TV is a cable box that sits on a wooden shelf. The windows on either sides of the TV are covered with heavy black drapes. A pretty large brown sofa about seven feet long is facing the TV. There is a glass coffee table on infront of the sofa.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2361"></child>
+        </children>
+    </item>
+    <item nodeId="node-2361">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Stairs
+Stairs that lead to the second level.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2362"></child>
+        </children>
+    </item>
+    <item nodeId="node-2362">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway
+There are pictures of him and the animals he killed are across the wall, like some trophy hall.
+
+You can see Bedroom door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2363"></child>
+        </children>
+    </item>
+    <item nodeId="node-2363">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Utility closet
+Inside the closet there are shelves in every direction. On the shelves to your left there are bottles of bleach, laundry detergents, and a box of dryer sheets. On the shelves straight in front of you there are spare light bulbs, and batteries. Under the shelf in front of you there is a large Matco toolbox. On the shelf to your right there are rolls of toilet paper, paper towels, and boxes of tissues.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2364"></child>
+        </children>
+    </item>
+    <item nodeId="node-2364">
+        <command xml:space="preserve">open toolbox</command>
+        <result xml:space="preserve">You open Matco toolbox, revealing Yellow key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2365"></child>
+        </children>
+    </item>
+    <item nodeId="node-2365">
+        <command xml:space="preserve">take yellow key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2366"></child>
+        </children>
+    </item>
+    <item nodeId="node-2366">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway
+There are pictures of him and the animals he killed are across the wall, like some trophy hall.
+
+You can see Bedroom door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2367"></child>
+        </children>
+    </item>
+    <item nodeId="node-2367">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2368"></child>
+        </children>
+    </item>
+    <item nodeId="node-2368">
+        <command xml:space="preserve">unlock door with yellow key</command>
+        <result xml:space="preserve">You unlock Bedroom door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2369"></child>
+        </children>
+    </item>
+    <item nodeId="node-2369">
+        <command xml:space="preserve">x safe</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2370"></child>
+        </children>
+    </item>
+    <item nodeId="node-2370">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+
+Bedroom
+There is a desk in the corner of the room under a window that has a black curtain covering it. Papers are stacked high all over the desk. There is a bed adjacent to the desk. Blanket and sheets are unmade and scatter from the bed to the ground. There is something shining that you see under the desk.
+
+You can see Bedroom door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2371"></child>
+        </children>
+    </item>
+    <item nodeId="node-2371">
+        <command xml:space="preserve">x safe</command>
+        <result xml:space="preserve">A heavy looking steel safe. There seems to be a dial on the front. There are instructions still on the safe. It reads "To unlock safe say spin dial to whatever your four digit password is." For example say "spin dial to 1122"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2394"></child>
+        </children>
+    </item>
+    <item nodeId="node-2394">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2418"></child>
+        </children>
+    </item>
+    <item nodeId="node-2418">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2467"></child>
+        </children>
+    </item>
+    <item nodeId="node-2467">
+        <command xml:space="preserve">turn dial to 0222</command>
+        <result xml:space="preserve">I only understood you as far as wanting to turn Safe.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2468"></child>
+        </children>
+    </item>
+    <item nodeId="node-2468">
+        <command xml:space="preserve">spin dial to 0222</command>
+        <result xml:space="preserve">Clonk! and the safe door swings slowly open, revealing Red key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2469"></child>
+        </children>
+    </item>
+    <item nodeId="node-2469">
+        <command xml:space="preserve">take red key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2470"></child>
+        </children>
+    </item>
+    <item nodeId="node-2470">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway
+There are pictures of him and the animals he killed are across the wall, like some trophy hall.
+
+You can see Bedroom door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2471"></child>
+        </children>
+    </item>
+    <item nodeId="node-2471">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Stairs
+Stairs that lead to the second level.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2472"></child>
+        </children>
+    </item>
+    <item nodeId="node-2472">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+living room
+There is an LG flatscreen TV on the pale wall. Under the TV is a cable box that sits on a wooden shelf. The windows on either sides of the TV are covered with heavy black drapes. A pretty large brown sofa about seven feet long is facing the TV. There is a glass coffee table on infront of the sofa.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2473"></child>
+        </children>
+    </item>
+    <item nodeId="node-2473">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+kitchen
+A typical kitchen. A generic refrigerator with a sink to the left of it. A counter to the left of the sink and to the right of the refrigerator. Notes stuck to the refrigerator by magnets. Wood cabinets surround the kitchen. In the back right corner of the kitchen is a door that leads to the yard.
+
+There are notes on the refrigerator. Maybe you should examine them.
+
+On Refrigerator is Notes.
+
+You can also see a backdoor here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2474"></child>
+        </children>
+    </item>
+    <item nodeId="node-2474">
+        <command xml:space="preserve">x notes</command>
+        <result xml:space="preserve">0222. Seems like an important code of somesort.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2475"></child>
+        </children>
+    </item>
+    <item nodeId="node-2475">
+        <command xml:space="preserve">open door with red key</command>
+        <result xml:space="preserve">You unlock the backdoor.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2476"></child>
+        </children>
+    </item>
+    <item nodeId="node-2476">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+
+    *** You escaped! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2511"></child>
+        </children>
+    </item>
+    <item nodeId="node-2511">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2512"></child>
+        </children>
+    </item>
+    <item nodeId="node-2512">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2549"></child>
+        </children>
+    </item>
+    <item nodeId="node-2549">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2550"></child>
+        </children>
+    </item>
+    <item nodeId="node-2550">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1026">
         <command xml:space="preserve">x door</command>
         <result xml:space="preserve">You see nothing special about the basement door.
@@ -178,6 +572,32 @@ You can see a basement door here.
     <item nodeId="node-1028">
         <command xml:space="preserve">take flashlight</command>
         <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2300">
+        <command xml:space="preserve">talk to mike</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2302"></child>
+        </children>
+    </item>
+    <item nodeId="node-2302">
+        <command xml:space="preserve">ask mike about breakfast</command>
+        <result xml:space="preserve">Here I brought you your breakfast.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2303"></child>
+        </children>
+    </item>
+    <item nodeId="node-2303">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Breakfast
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1514,11 +1934,10 @@ You can see Bedroom door here.
 Utility closet
 Inside the closet there are shelves in every direction. On the shelves to your left there are bottles of bleach, laundry detergents, and a box of dryer sheets. On the shelves straight in front of you there are spare light bulbs, and batteries. Under the shelf in front of you there is a large Matco toolbox. On the shelf to your right there are rolls of toilet paper, paper towels, and boxes of tissues.
 
-You can see Matco toolbox (closed) here.
-
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1464"></child>
+        <children><child nodeId="node-2202"></child>
+            <child nodeId="node-1464"></child>
             <child nodeId="node-1432"></child>
         </children>
     </item>
@@ -1813,43 +2232,637 @@ A typical kitchen. A generic refrigerator with a sink to the left of it. A count
     </item>
     <item nodeId="node-1751">
         <command xml:space="preserve">e</command>
-        <result xml:space="preserve">You can't go that way.
+        <result xml:space="preserve">you unlock door and exit
+Yard
+Oh the smell of fresh air, the cool breeze rushing passed you, the trees swaying in the wind. The feelings overwhelm you. You start to break down, but it is not over yet so you gather yourself together and climb over the fence. As you stumble into the street, some strangers notice you and come to help you and they began to call the cops. It is over, the fight is over, you are in safety now.
 
-&gt;</result>
+
+
+    *** you win ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1752"></child>
         </children>
     </item>
     <item nodeId="node-1752">
         <command xml:space="preserve">open door</command>
-        <result xml:space="preserve">You open the backdoor.
+        <result xml:space="preserve">Please give one of the answers above.
 
-&gt;</result>
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1753"></child>
         </children>
     </item>
     <item nodeId="node-1753">
         <command xml:space="preserve">e</command>
-        <result xml:space="preserve">You can't go that way.
+        <result xml:space="preserve">Please give one of the answers above.
 
-&gt;</result>
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1754"></child>
         </children>
     </item>
     <item nodeId="node-1754">
         <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1755"></child>
+        </children>
+    </item>
+    <item nodeId="node-1755">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1756"></child>
+        </children>
+    </item>
+    <item nodeId="node-1756">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1757"></child>
+        </children>
+    </item>
+    <item nodeId="node-1757">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1758"></child>
+        </children>
+    </item>
+    <item nodeId="node-1758">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1759"></child>
+        </children>
+    </item>
+    <item nodeId="node-1759">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1803"></child>
+        </children>
+    </item>
+    <item nodeId="node-1803">
+        <command xml:space="preserve">unlock backdoor</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1804"></child>
+        </children>
+    </item>
+    <item nodeId="node-1804">
+        <command xml:space="preserve">red key</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1805"></child>
+        </children>
+    </item>
+    <item nodeId="node-1805">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1806"></child>
+        </children>
+    </item>
+    <item nodeId="node-1806">
+        <command xml:space="preserve">go to yard</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1854"></child>
+        </children>
+    </item>
+    <item nodeId="node-1854">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1903"></child>
+        </children>
+    </item>
+    <item nodeId="node-1903">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1904"></child>
+        </children>
+    </item>
+    <item nodeId="node-1904">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1905"></child>
+        </children>
+    </item>
+    <item nodeId="node-1905">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1906"></child>
+        </children>
+    </item>
+    <item nodeId="node-1906">
+        <command xml:space="preserve">walk through door</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1907"></child>
+        </children>
+    </item>
+    <item nodeId="node-1907">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1908"></child>
+        </children>
+    </item>
+    <item nodeId="node-1908">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1909"></child>
+        </children>
+    </item>
+    <item nodeId="node-1909">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1910"></child>
+        </children>
+    </item>
+    <item nodeId="node-1910">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1911"></child>
+        </children>
+    </item>
+    <item nodeId="node-1911">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1912"></child>
+        </children>
+    </item>
+    <item nodeId="node-1912">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1913"></child>
+        </children>
+    </item>
+    <item nodeId="node-1913">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1914"></child>
+        </children>
+    </item>
+    <item nodeId="node-1914">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1915"></child>
+        </children>
+    </item>
+    <item nodeId="node-1915">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1916"></child>
+        </children>
+    </item>
+    <item nodeId="node-1916">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1917"></child>
+        </children>
+    </item>
+    <item nodeId="node-1917">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1918"></child>
+        </children>
+    </item>
+    <item nodeId="node-1918">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1919"></child>
+        </children>
+    </item>
+    <item nodeId="node-1919">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1920"></child>
+        </children>
+    </item>
+    <item nodeId="node-1920">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1921"></child>
+        </children>
+    </item>
+    <item nodeId="node-1921">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1922"></child>
+        </children>
+    </item>
+    <item nodeId="node-1922">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1923"></child>
+        </children>
+    </item>
+    <item nodeId="node-1923">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1924"></child>
+        </children>
+    </item>
+    <item nodeId="node-1924">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1925"></child>
+        </children>
+    </item>
+    <item nodeId="node-1925">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1926"></child>
+        </children>
+    </item>
+    <item nodeId="node-1926">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1927"></child>
+        </children>
+    </item>
+    <item nodeId="node-1927">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1928"></child>
+        </children>
+    </item>
+    <item nodeId="node-1928">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1929"></child>
+        </children>
+    </item>
+    <item nodeId="node-1929">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1930"></child>
+        </children>
+    </item>
+    <item nodeId="node-1930">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1931"></child>
+        </children>
+    </item>
+    <item nodeId="node-1931">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1932"></child>
+        </children>
+    </item>
+    <item nodeId="node-1932">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1933"></child>
+        </children>
+    </item>
+    <item nodeId="node-1933">
+        <command xml:space="preserve">unlock door with key</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1934"></child>
+        </children>
+    </item>
+    <item nodeId="node-1934">
+        <command xml:space="preserve">red key</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1935"></child>
+        </children>
+    </item>
+    <item nodeId="node-1935">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2017"></child>
+        </children>
+    </item>
+    <item nodeId="node-2017">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2100"></child>
+        </children>
+    </item>
+    <item nodeId="node-2100">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2101"></child>
+        </children>
+    </item>
+    <item nodeId="node-2101">
+        <command xml:space="preserve">go through backdoor</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2202">
+        <command xml:space="preserve">open toolbox</command>
+        <result xml:space="preserve">You open Matco toolbox, revealing Yellow key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2203"></child>
+        </children>
+    </item>
+    <item nodeId="node-2203">
+        <command xml:space="preserve">take yellow key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2204"></child>
+        </children>
+    </item>
+    <item nodeId="node-2204">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway
+There are pictures of him and the animals he killed are across the wall, like some trophy hall.
+
+You can see Bedroom door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2205"></child>
+        </children>
+    </item>
+    <item nodeId="node-2205">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2206"></child>
+        </children>
+    </item>
+    <item nodeId="node-2206">
+        <command xml:space="preserve">unlock door with yellow key</command>
+        <result xml:space="preserve">You unlock Bedroom door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2207"></child>
+        </children>
+    </item>
+    <item nodeId="node-2207">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+
+Bedroom
+There is a desk in the corner of the room under a window that has a black curtain covering it. Papers are stacked high all over the desk. There is a bed adjacent to the desk. Blanket and sheets are unmade and scatter from the bed to the ground. There is something shining that you see under the desk.
+
+You can see Bedroom door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2208"></child>
+        </children>
+    </item>
+    <item nodeId="node-2208">
+        <command xml:space="preserve">x safe</command>
+        <result xml:space="preserve">A heavy looking steel safe. There seems to be a dial on the front. There are instructions still on the safe. It reads "To unlock safe say spin dial to whatever your four digit password is." For example say "spin dial to 1122"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2209"></child>
+        </children>
+    </item>
+    <item nodeId="node-2209">
+        <command xml:space="preserve">spin dial to 0222</command>
+        <result xml:space="preserve">Clonk! and the safe door swings slowly open, revealing Red key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2210"></child>
+        </children>
+    </item>
+    <item nodeId="node-2210">
+        <command xml:space="preserve">take red key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2211"></child>
+        </children>
+    </item>
+    <item nodeId="node-2211">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway
+There are pictures of him and the animals he killed are across the wall, like some trophy hall.
+
+You can see Bedroom door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2212"></child>
+        </children>
+    </item>
+    <item nodeId="node-2212">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Stairs
+Stairs that lead to the second level.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2213"></child>
+        </children>
+    </item>
+    <item nodeId="node-2213">
+        <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 living room
 There is an LG flatscreen TV on the pale wall. Under the TV is a cable box that sits on a wooden shelf. The windows on either sides of the TV are covered with heavy black drapes. A pretty large brown sofa about seven feet long is facing the TV. There is a glass coffee table on infront of the sofa.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1755"></child>
+        <children><child nodeId="node-2214"></child>
         </children>
     </item>
-    <item nodeId="node-1755">
+    <item nodeId="node-2214">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 kitchen
@@ -1857,82 +2870,86 @@ A typical kitchen. A generic refrigerator with a sink to the left of it. A count
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1756"></child>
+        <children><child nodeId="node-2215"></child>
         </children>
     </item>
-    <item nodeId="node-1756">
+    <item nodeId="node-2215">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1757"></child>
+        <children><child nodeId="node-2238"></child>
         </children>
     </item>
-    <item nodeId="node-1757">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">You can't go that way.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1758"></child>
-        </children>
-    </item>
-    <item nodeId="node-1758">
-        <command xml:space="preserve">n</command>
-        <result xml:space="preserve">You can't go that way.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1759"></child>
-        </children>
-    </item>
-    <item nodeId="node-1759">
+    <item nodeId="node-2238">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1803"></child>
+        <children><child nodeId="node-2239"></child>
         </children>
     </item>
-    <item nodeId="node-1803">
-        <command xml:space="preserve">unlock backdoor</command>
-        <result xml:space="preserve">What do you want to unlock the backdoor with?
+    <item nodeId="node-2239">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+living room
+There is an LG flatscreen TV on the pale wall. Under the TV is a cable box that sits on a wooden shelf. The windows on either sides of the TV are covered with heavy black drapes. A pretty large brown sofa about seven feet long is facing the TV. There is a glass coffee table on infront of the sofa.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1804"></child>
+        <children><child nodeId="node-2240"></child>
         </children>
     </item>
-    <item nodeId="node-1804">
-        <command xml:space="preserve">red key</command>
-        <result xml:space="preserve">That's unlocked at the moment.
+    <item nodeId="node-2240">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+kitchen
+A typical kitchen. A generic refrigerator with a sink to the left of it. A counter to the left of the sink and to the right of the refrigerator. Notes stuck to the refrigerator by magnets. Wood cabinets surround the kitchen. In the back right corner of the kitchen is a door that leads to the yard.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1805"></child>
+        <children><child nodeId="node-2241"></child>
         </children>
     </item>
-    <item nodeId="node-1805">
+    <item nodeId="node-2241">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1806"></child>
+        <children><child nodeId="node-2268"></child>
         </children>
     </item>
-    <item nodeId="node-1806">
-        <command xml:space="preserve">go to yard</command>
-        <result xml:space="preserve">You can't see any such thing.
+    <item nodeId="node-2268">
+        <command xml:space="preserve">e\</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1854"></child>
+        <children><child nodeId="node-2269"></child>
         </children>
     </item>
-    <item nodeId="node-1854">
+    <item nodeId="node-2269">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2298"></child>
+        </children>
+    </item>
+    <item nodeId="node-2298">
+        <command xml:space="preserve">unlock door with red key</command>
+        <result xml:space="preserve">You unlock the backdoor.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2299"></child>
+        </children>
+    </item>
+    <item nodeId="node-2299">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
@@ -2377,6 +3394,145 @@ You can see Backdoor here.
     <item nodeId="node-1013">
         <command xml:space="preserve">exit backdoor</command>
         <result xml:space="preserve">I only understood you as far as wanting to exit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2304">
+        <command xml:space="preserve">ask mike about breakfast</command>
+        <result xml:space="preserve">Here I brought you your breakfast. I am going to work now. Behave yourself.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2305"></child>
+        </children>
+    </item>
+    <item nodeId="node-2305">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Breakfast
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2308"></child>
+        </children>
+    </item>
+    <item nodeId="node-2308">
+        <command xml:space="preserve">open dryer</command>
+        <result xml:space="preserve">As you open the dryer, a loud squeek comes from the hinge of the dryer door. You freeze in fear, just in case he heard and comes to check on you. After a couple of minutes has passed, you continue searching the dryer. Using the light from inside the dryer you examine every inch of the inside. Still nothing, but as you look down as you were about to take your head out of the dryer, you see something in the lint trap. As you take out the filter, a rusty key drops to the floor.
+
+You open the dryer, revealing a rusty key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2309"></child>
+        </children>
+    </item>
+    <item nodeId="node-2309">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2310"></child>
+        </children>
+    </item>
+    <item nodeId="node-2310">
+        <command xml:space="preserve">unlock door with key</command>
+        <result xml:space="preserve">You unlock the basement door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2311"></child>
+        </children>
+    </item>
+    <item nodeId="node-2311">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening the basement door)
+
+Staircase
+You can see a basement door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2312"></child>
+        </children>
+    </item>
+    <item nodeId="node-2312">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+living room
+There is an LG flatscreen TV on the pale wall. Under the TV is a cable box that sits on a wooden shelf. The windows on either sides of the TV are covered with heavy black drapes. A pretty large brown sofa about seven feet long is facing the TV. There is a glass coffee table on infront of the sofa.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2313"></child>
+        </children>
+    </item>
+    <item nodeId="node-2313">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Stairs
+Stairs that lead to the second level.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2314"></child>
+        </children>
+    </item>
+    <item nodeId="node-2314">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway
+There are pictures of him and the animals he killed are across the wall, like some trophy hall.
+
+You can see Bedroom door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2315"></child>
+        </children>
+    </item>
+    <item nodeId="node-2315">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Stairs
+Stairs that lead to the second level.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2316"></child>
+        </children>
+    </item>
+    <item nodeId="node-2316">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+living room
+There is an LG flatscreen TV on the pale wall. Under the TV is a cable box that sits on a wooden shelf. The windows on either sides of the TV are covered with heavy black drapes. A pretty large brown sofa about seven feet long is facing the TV. There is a glass coffee table on infront of the sofa.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2317"></child>
+        </children>
+    </item>
+    <item nodeId="node-2317">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+kitchen
+A typical kitchen. A generic refrigerator with a sink to the left of it. A counter to the left of the sink and to the right of the refrigerator. Notes stuck to the refrigerator by magnets. Wood cabinets surround the kitchen. In the back right corner of the kitchen is a door that leads to the yard.
+
+There are notes on the refrigerator. Maybe you should examine them.
+
+On Refrigerator is Notes.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2318"></child>
+        </children>
+    </item>
+    <item nodeId="node-2318">
+        <command xml:space="preserve">x notes</command>
+        <result xml:space="preserve">0222. Seems like an important code of somesort.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
