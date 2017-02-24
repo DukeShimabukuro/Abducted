@@ -1,7 +1,7 @@
 "Abducted" by Duke Shimabukuro
 
 When play begins:
-	say "It has been weeks since you have seen the outside world. He occasionally comes by to drop of water and a small parcel of food. If I am lucky that is the only thing he does when he comes downstairs. Sometimes he touches me, other times when he is angry, he will beat me. I can't take this much longer. I must find a way out."
+	say "It has been weeks since I have seen the outside world. He occasionally comes by to drop of water and a small parcel of food. If I am lucky that is the only thing he does when he comes downstairs. I can not take this pain for much longer, I must find a way out."
 	
 Basement is a room.  "Its dark all around you. There is a small sliver of light coming from under the door at the top of the stairs. There are a bunch of moving boxes scattered all around the basement. In the far right corner of the basement there is a washing machine, dryer and a sink. Next to the sink is a shelf of tools."
 
@@ -18,8 +18,6 @@ Instead of opening dryer:
 say "As you open the dryer, a loud squeek comes from the hinge of the dryer door. You freeze in fear, just in case he heard and comes to check on you. After a couple of minutes has passed, you continue searching the dryer. Using the light from inside the dryer you examine every inch of the inside. Still nothing, but as you look down as you were about to take your head out of the dryer, you see something in the lint trap. As you take out the filter, a rusty key drops to the floor.";
 continue the action. 
 	
-
-
 The washing machine is a thing. The washing machine is in the basement. The description of the washing machine is "As you feel around the washing machine, you feel a cylindrical object, possibly a flashlight."
 
 The dryer is a thing. The dryer is a container. The dryer is closed and openable. The dryer is in the basement. The dryer is undescribed. The description of the dryer is "A rusty dryer. Nothing too much about it."
@@ -88,10 +86,10 @@ Understand "door" as backdoor.
 
 Yard is a room. The description of the yard is "Oh the smell of fresh air, the cool breeze rushing passed you, the trees swaying in the wind. The feelings overwhelm you. You start to break down, but it is not over yet so you gather yourself together and climb over the fence. As you stumble into the street, some strangers notice you and come to help you and they began to call the cops. It is over, the fight is over, you are in safety now.".
 
+[Thanks to http://stackoverflow.com/questions/29789530/how-to-trigger-a-rule-on-entering-a-room-in-inform7 for the following code]
 Instead of going to the yard:
 	If player is carrying red key:
-		end the story saying "Oh the smell of fresh air, the cool breeze rushing passed you, the trees swaying in the wind. The feelings overwhelm you. You start to break down, but it is not over yet so you gather yourself together and climb over the fence. As you stumble into the street, some strangers notice you and come to help you and they began to call the cops. It is over, the fight is over, you are in safety now. 
-			You escaped!";
+		end the story saying "Oh the smell of fresh air, the cool breeze rushing passed you, the trees swaying in the wind. The feelings overwhelm you. You start to break down, but it is not over yet so you gather yourself together and climb over the fence. As you stumble into the street, some strangers notice you and come to help you and they began to call the cops. It is over, the fight is over, you are in safety now. You escaped!";
 		continue the action.
 		
 
