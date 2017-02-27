@@ -10,7 +10,7 @@ release to "/Users/dshimabukuro19/Desktop/Computer Science Project/Abducted/Abdu
 
 ! Blorb instructions
 
-storyfile leafname "Abducted.gblorb"
+storyfile leafname "Breakout.gblorb"
 storyfile "/Users/dshimabukuro19/Desktop/Computer Science Project/Abducted/Abducted.inform/Build/output.ulx" include
 ifiction "/Users/dshimabukuro19/Desktop/Computer Science Project/Abducted/Abducted.inform/Metadata.iFiction" include
 cover "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
@@ -21,7 +21,7 @@ picture 1 "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover
 placeholder [IFID] = "D6FD2A17-0F70-4133-A134-59465F3CDA30"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2017"
-placeholder [TITLE] = "Abducted"
+placeholder [TITLE] = "Breakout"
 placeholder [AUTHOR] = "Duke Shimabukuro"
 placeholder [BLURB] = "A work of interactive fiction."
 
