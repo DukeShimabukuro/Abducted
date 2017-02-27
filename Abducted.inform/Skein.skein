@@ -5133,9 +5133,9 @@ You can also see Frank and a backdoor here.
     </item>
     <item nodeId="node-3922">
         <command xml:space="preserve">talk to frank</command>
-        <result xml:space="preserve">"Look there is a safe under the desk, I wonder what could be in it." you say happily. 
+        <result xml:space="preserve">"This kitchen is pretty cool, let's look around." you say enthusiastically. 
 
-"There seems to be a combination lock on the safe, a four digit code. This room is pretty messy." he replies.
+"Dude there is a bunch of cereal in these cabinets, to bad there is nothing in them. You see that door dude, I bet we can escape this house from there. We just have to find the key that will unlock it." he replies.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -5206,9 +5206,9 @@ You can also see Frank and a backdoor here.
     </item>
     <item nodeId="node-4076">
         <command xml:space="preserve">talk to frank</command>
-        <result xml:space="preserve">"Look there is a safe under the desk, I wonder what could be in it." you say happily. 
+        <result xml:space="preserve">"This kitchen is pretty cool, let's look around." you say enthusiastically. 
 
-"There seems to be a combination lock on the safe, a four digit code. This room is pretty messy." he replies.
+"Dude there is a bunch of cereal in these cabinets, to bad there is nothing in them. You see that door dude, I bet we can escape this house from there. We just have to find the key that will unlock it." he replies.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -5217,11 +5217,278 @@ You can also see Frank and a backdoor here.
     </item>
     <item nodeId="node-4077">
         <command xml:space="preserve">g</command>
-        <result xml:space="preserve">"Look there is a safe under the desk, I wonder what could be in it." you say happily. 
+        <result xml:space="preserve">"This kitchen is pretty cool, let's look around." you say enthusiastically. 
 
-"There seems to be a combination lock on the safe, a four digit code. This room is pretty messy." he replies.
+"Dude there is a bunch of cereal in these cabinets, to bad there is nothing in them. You see that door dude, I bet we can escape this house from there. We just have to find the key that will unlock it." he replies.
 
 &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4152"></child>
+        </children>
+    </item>
+    <item nodeId="node-4152">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4153"></child>
+        </children>
+    </item>
+    <item nodeId="node-4153">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+living room
+There is an LG flatscreen TV on the pale wall. Under the TV is a cable box that sits on a wooden shelf. The windows on either sides of the TV are covered with heavy black drapes. A pretty large brown sofa about seven feet long is facing the TV. There is a glass coffee table on infront of the sofa.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4154"></child>
+        </children>
+    </item>
+    <item nodeId="node-4154">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4155"></child>
+        </children>
+    </item>
+    <item nodeId="node-4155">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Stairs
+Stairs that lead to the second level. Nice dark wood stairs.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4156"></child>
+        </children>
+    </item>
+    <item nodeId="node-4156">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4157"></child>
+        </children>
+    </item>
+    <item nodeId="node-4157">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Hallway
+There are new picture frames on the wall. They have the sample pictures still in them, like when you buy a brand new picture frame. You can tell the items in this house is new.
+
+You can see Bedroom door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4158"></child>
+        </children>
+    </item>
+    <item nodeId="node-4158">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4159"></child>
+        </children>
+    </item>
+    <item nodeId="node-4159">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4160"></child>
+        </children>
+    </item>
+    <item nodeId="node-4160">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Utility closet
+Inside the closet there are shelves in every direction. On the shelves to your left there are bottles of bleach, laundry detergents, and a box of dryer sheets. On the shelves straight in front of you there are spare light bulbs, and batteries. Under the shelf in front of you there is a large Matco toolbox. On the shelf to your right there are rolls of toilet paper, rolls of Bounty, and boxes of tissues.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4161"></child>
+        </children>
+    </item>
+    <item nodeId="node-4161">
+        <command xml:space="preserve">open toolbox</command>
+        <result xml:space="preserve">You open Matco toolbox, revealing Yellow key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4162"></child>
+        </children>
+    </item>
+    <item nodeId="node-4162">
+        <command xml:space="preserve">take yellow key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4163"></child>
+        </children>
+    </item>
+    <item nodeId="node-4163">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway
+There are new picture frames on the wall. They have the sample pictures still in them, like when you buy a brand new picture frame. You can tell the items in this house is new.
+
+You can see Bedroom door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4164"></child>
+        </children>
+    </item>
+    <item nodeId="node-4164">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4165"></child>
+        </children>
+    </item>
+    <item nodeId="node-4165">
+        <command xml:space="preserve">unlock door with yellow key</command>
+        <result xml:space="preserve">You unlock Bedroom door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4166"></child>
+        </children>
+    </item>
+    <item nodeId="node-4166">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+
+Bedroom
+There is a desk in the corner of the room under a window that has a black curtain covering it. Papers are stacked high all over the desk. There is a bed adjacent to the desk. Blanket and sheets are unmade and scatter from the bed to the ground. There is something shining that you see under the desk, it looks like a safe.
+
+You can see Bedroom door and Frank here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4167"></child>
+        </children>
+    </item>
+    <item nodeId="node-4167">
+        <command xml:space="preserve">x safe</command>
+        <result xml:space="preserve">A heavy looking steel safe. There seems to be a dial on the front. There are instructions still on the safe. It reads "To unlock safe say spin dial to whatever your four digit password is." For example say "spin dial to 1122"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4168"></child>
+        </children>
+    </item>
+    <item nodeId="node-4168">
+        <command xml:space="preserve">spin dial to 0222</command>
+        <result xml:space="preserve">Clonk! and the safe door swings slowly open, revealing Red key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4169"></child>
+        </children>
+    </item>
+    <item nodeId="node-4169">
+        <command xml:space="preserve">take red key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4170"></child>
+        </children>
+    </item>
+    <item nodeId="node-4170">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Hallway
+There are new picture frames on the wall. They have the sample pictures still in them, like when you buy a brand new picture frame. You can tell the items in this house is new.
+
+You can see Bedroom door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4171"></child>
+        </children>
+    </item>
+    <item nodeId="node-4171">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4172"></child>
+        </children>
+    </item>
+    <item nodeId="node-4172">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Stairs
+Stairs that lead to the second level. Nice dark wood stairs.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4173"></child>
+        </children>
+    </item>
+    <item nodeId="node-4173">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+living room
+There is an LG flatscreen TV on the pale wall. Under the TV is a cable box that sits on a wooden shelf. The windows on either sides of the TV are covered with heavy black drapes. A pretty large brown sofa about seven feet long is facing the TV. There is a glass coffee table on infront of the sofa.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4174"></child>
+        </children>
+    </item>
+    <item nodeId="node-4174">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+kitchen
+A typical kitchen. A generic refrigerator with a sink to the left of it. A counter to the left of the sink and to the right of the refrigerator. Notes stuck to the refrigerator by magnets. Wood cabinets surround the kitchen. In the back right corner of the kitchen is a door that leads to the yard.
+
+There are notes on the refrigerator.
+
+On Refrigerator is Notes.
+
+You can also see a backdoor here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4175"></child>
+        </children>
+    </item>
+    <item nodeId="node-4175">
+        <command xml:space="preserve">unlock door with red key</command>
+        <result xml:space="preserve">You unlock the backdoor.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-4176"></child>
+        </children>
+    </item>
+    <item nodeId="node-4176">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+
+    *** After entering the yard of the house, you are greeted by one of the workers. She congradulates you and Frank on escaping the house withing an hour and a half. You win! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1005">

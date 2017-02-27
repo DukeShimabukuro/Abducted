@@ -167,6 +167,36 @@ break]'We have to find some source of light so that we can look around the basem
 
 Frank is a man in basement. The description of Frank is "Frank is wearing everyday clothes, Black and white Huff shirt with a pair of general khakis.".
 
+
+[Open dryer
+take key
+unlock door with key
+s
+u
+e
+x notes
+w
+u
+s
+w
+open toolbox
+take key
+w
+w
+unlock door with yellow key
+x safe
+spin dial to 0222
+take red key
+e
+n
+d
+e
+unlock door with red key
+e]
+
+
+
+
 		
 
 		
