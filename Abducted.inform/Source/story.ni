@@ -2,14 +2,20 @@
 
 When play begins:
 	say "You and your friend Frank wanted to try the new breakout game in Waikiki . This breakout game is not like anyother though because it is not a room that you are trying to breakout from, it is a house!. You and Frank had reserved a day two months in advance to try the new breakout house. You and Frank get blindfolded and get placed in the basement, where you will begin your breakout.".
+	The description of player is "Lookin' spiffy today. Nice Aloha print T-Shirt and black pants."
 	
 Basement is a room. "It's dark all around. There is a small sliver of light coming from under the door at the top of the stairs. There are a bunch of moving boxes scattered all around the basement. In the far right corner of the basement there is a washing machine, dryer and a sink. Next to the sink is a shelf of tools. There is the basement door south of the basement."
+Instead of talking to Frank:
+say "'Dude, it's pretty dark.' you said casually. [paragraph
+break]'We have to find some source of light so that we can look around the basement better.' he replies.".
+
 
 Staircase is a room. Staircase is down of living room. The description of staircase is "Simple wood staircase leading from the basement to the living room. The living room is above the staircase. Walk up to get to the living room.".
 
 Flashlight is a thing. The flashlight is on the washing machine. The flashlight is undescribed. The description of flashlight is "A metal, heavy duty flashlight. The light on it is pretty bright which makes it better to see in the basement."
 
 [mr.kiang get that cat] 
+[Adds exits at the top of the screen]
 When play begins: 
     now left hand status line is "Exits: [exit list]"; 
     now right hand status line is "[location]".
@@ -34,39 +40,35 @@ continue the action.
 
 
 Understand "washer" as washing machine. 
-The washing machine is a thing. The washing machine is in the basement. The description of the washing machine is "As you feel around the washing machine, you feel a cylindrical object, possibly a flashlight."
+The washing machine is a thing. The washing machine is in the basement. The washing machine is fixed in place. The description of the washing machine is "As you feel around the washing machine, you feel a cylindrical object, possibly a flashlight."
 
-The dryer is a thing. The dryer is a container. The dryer is closed and openable. The dryer is in the basement. The dryer is undescribed. The description of the dryer is "A rusty dryer. Nothing too much about it. Maybe there is something in it."
+The dryer is a thing. The dryer is a container. The dryer is closed and openable. The dryer is in the basement. The dryer is undescribed. The dryer is fixed in place. The description of the dryer is "A rusty dryer. Nothing too much about it. Maybe there is something in it."
 
 The basement door is a door. The basement door is south of basement and north of staircase. The rusty key unlocks the basement door. 
-Sink is a thing. Sink is in basement. The description of sink is "A durable plastic workman sink. Nothing special about it other than if you wanted to wash your hands, but that is not important right now.".
+Sink is a thing. Sink is in basement. Sink is fixed in place. The description of sink is "A durable plastic workman sink. Nothing special about it other than if you wanted to wash your hands, but that is not important right now.".
 
 The basement door is closed and openable. The basement door is locked and lockable. 
 
  
-Living room is a room. The description of the living room is "There is an LG flatscreen TV on the pale wall. Under the TV is a cable box that sits on a wooden shelf. The windows on either sides of the TV are covered with heavy black drapes. A pretty large brown sofa about seven feet long is facing the TV. There is a glass coffee table on infront of the sofa."
-Living room is west of kitchen. 
+Living room is a room. The description of the living room is "There is an LG flatscreen TV on the pale wall. Under the TV is a cable box that sits on a wooden shelf. The windows on either sides of the TV are covered with heavy black drapes. A pretty large brown sofa about seven feet long is facing the TV."
+Window is a thing. Window is fixed in place. Window is in living room. Window is undescribed. The description of window is "The curtain seems to be blocking the window for a reason. There are more important things to be looking for in the house.".
 
-LG flatscreen TV is a thing. LG flatscreen TV is in living room. The description of LG flatscreen tv is "A tv that is turned off. Not really important right now. Remember, you have an hour and a half to escape. Stay focused! Plus the tv won't turn on anyway.e". LG flatscreen TV is undescribed. Understand "tv" as LG flatscreen tv. LG flatscreen tv is scenery. 
+LG flatscreen TV is a thing. LG flatscreen TV is in living room. The LG flatscreen TV is fixed in place. The description of LG flatscreen tv is "A tv that is turned off. Not really important right now. Remember, you have an hour and a half to escape. Stay focused! Plus the tv won't turn on anyway.e". LG flatscreen TV is undescribed. Understand "tv" as LG flatscreen tv. LG flatscreen tv is scenery. 
 
-Cable box is a thing. Cable box is in living room. The description of cable box is "an ordinary cable box. Nothing important here.". The cable box is undescribed. The cable box is scenery. 
+Cable box is a thing. Cable box is in living room. Cable box is fixed in place. The description of cable box is "an ordinary cable box. Nothing important here.". The cable box is undescribed. The cable box is scenery. 
 
-Sofa is a thing. Sofa is in living room. The description of sofa is "A large brown sofa. Looks pretty comfy though.". The sofa is undescribed. The sofa is a supporter.
-[Instead of sitting on sofa:
-	say "After about five minutes sitting on the couch, you realized that you wasted five minutes of your and Frank's time. Better get a move on.";
-	continue the action. ]
-
+Sofa is a thing. Sofa is fixed in place. Sofa is in living room. The description of sofa is "A large brown sofa. Looks pretty comfy though, too bad you can't sit on it.". Sofa is undescribed. 
 Stairs is up of living room. "Stairs that lead to the second level. Nice dark wood stairs.".
 
 Hallway is south of stairs. "There are new picture frames on the wall. They have the sample pictures still in them, like when you buy a brand new picture frame. You can tell the items in this house is new.".
 
 Bedroom is a room. "There is a desk in the corner of the room under a window that has a black curtain covering it. Papers are stacked high all over the desk. There is a bed adjacent to the desk. Blanket and sheets are unmade and scatter from the bed to the ground. There is something shining that you see under the desk, it looks like a safe.".
 Papers is a thing. Papers is in bedroom. The description of papers is "Just a couple of piles of newspaper and mail. Nothing much about it that will help.". Papers is undescribed. 
-Desk is a thing in bedroom. The description of desk is "A wood desk that seems to be empty. However there seems to be a safe beneath it.". The desk is undescribed.
+Desk is a thing in bedroom. The description of desk is "A wood desk that seems to be filled with empty envelopes and newspaper from a couple of weeks ago. However there seems to be a safe beneath it.". The desk is undescribed.
 After opening bedroom door:
 	move Frank to bedroom.
 	
-Instead of talking to Frank:
+Instead of talking to Frank in kitchen:
 	say "'This kitchen is pretty cool, let's look around.' you say enthusiastically. [paragraph break]'Dude there is a bunch of cereal in these cabinets, to bad there is nothing in them. You see that door dude, I bet we can escape this house from there. We just have to find the key that will unlock it.' he replies.".
 
 Bedroom door is a door. Bedroom door is east of bedroom and west of hallway. Bedroom door is locked and lockable. 
@@ -111,16 +113,19 @@ Understand "toolbox" as Matco toolbox. The matco toolbox is undescribed.
 
 Yellow key is a thing. Yellow key unlocks bedroom door. Yellow key is in matco toolbox. 
 
-Kitchen is a room. Kitchen is east of living room. The description of the kitchen is "A typical kitchen. A generic refrigerator with a sink to the left of it. A counter to the left of the sink and to the right of the refrigerator. Notes stuck to the refrigerator by magnets. Wood cabinets surround the kitchen. In the back right corner of the kitchen is a door that leads to the yard."
-Refrigerator is a thing. Refrigerator is in Kitchen. "There are notes on the refrigerator."
+Kitchen is a room. Kitchen is east of living room. The description of the kitchen is "A typical kitchen. A generic refrigerator with a kitchen sink to the left of it. A counter to the left of the kitchen sink and to the right of the refrigerator. Notes stuck to the refrigerator by magnets. Wood cabinets surround the kitchen. In the back right corner of the kitchen is a door that leads to the yard."
+Refrigerator is a thing. Refrigerator is in Kitchen. "There are notes on the refrigerator." Understand "Fridge" as "[refrigerator]". 
 Instead of opening refrigerator:
 	say "There is a bunch of paper products mimicing real products that would be in refrigerators like milk, vegitables, yogurt, and more. There is nothing important here.";
 	Continue the action. 
 	
+Kitchen sink is a thing. Understand "sink" as kitchen sink. Kitchen sink is undescribed. Kitchen sink is fixed in place. The description of kitchen sink is "There is nothing in the kitchen sink.".
+Counter is a thing. Counter is fixed in place. Counter is in the kitchen. The description of counter is "A nice marble counter. Nothing usefull is on it.".
+	
 After opening basement door:
 	move Frank to kitchen. 
 	
-Instead of talking to Frank:
+Instead of talking to Frank in bedroom:
 	say "'Look there is a safe under the desk, I wonder what could be in it.' you say happily. [Paragraph Break]'There seems to be a combination lock on the safe, a four digit code. This room is pretty messy.' he replies.".
 
 
@@ -129,6 +134,7 @@ Instead of talking to Frank:
 	say "'This kitchen is pretty cool, let's look around.' you say enthusiastically. [paragraph break]'Dude there is a bunch of cereal in these cabinets, to bad there is nothing in them. You see that door dude, I bet we can escape this house from there. We just have to find the key that will unlock it.' he replies.".
 	
 Cabinets are a thing. Cabinets is in kitchen. Cabinets are undescribed. The description of cabinets is "Wood cabinets that wrap around the kitchen. They look pretty decent." 
+Cabinets are fixed in place. Understand "Wood cabinets" as Cabinets. 
 Cabinets is a container. Cabinets are closed and openable.
 Instead of opening cabinets:
 	say "There are a bunch of cereal boxes, and dishes. Othere than that, nothing really special."
@@ -154,6 +160,7 @@ The description of backdoor is "This door leads to the yard. I could probably ho
 
 
 Bathroom is west of living room. "Nothing to special here. Just a typical bathroom. Two towels hanging on the rack, one toothbrush in the toothbrush holder with a tube of toothpaste on the counter."
+Toothbrush is a thing. Toothbrush is in bathroom. Toothbrush is undescribed. The description of toothbrush is "A typical toothbrush. Serves no purpose in your escape. You could take it if you want though."
 Towels is a thing. Towels is in bathroom. The description of towels is "Two green towels hanging on the rack. Nothing much about it.". The towels is undescribed. 
 Tube of toothpaste is a thing. Tube of toothpaste is in bathroom. Understand "Toothpaste" as tube of toothpaste. The description of tube of toothpaste is "Crest whitening toothpaste, pretty cool but it serves no use for us.". The tube of toothpaste is undescribed. 
 [thanks to http://www.musicwords.net/if/I7Handbook6x9.pdf for the following code]
@@ -161,9 +168,6 @@ Talking to is an action applying to one visible thing. Understand
 "talk to [someone]" or “converse with [someone]” as talking to.
 
 Check talking to: say "[The noun] doesn't reply."
-Instead of talking to Frank:
-say "'Dude, it's pretty dark.' you said casually. [paragraph
-break]'We have to find some source of light so that we can look around the basement better.' he replies.".
 
 Frank is a man in basement. The description of Frank is "Frank is wearing everyday clothes, Black and white Huff shirt with a pair of general khakis.".
 
